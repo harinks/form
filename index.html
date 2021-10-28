@@ -7,7 +7,7 @@
     <title>forms</title>
 </head>
 <body>
-    <form>
+    <form onsubmit=foo() method="post">
         <label for="firstname">First name</label><br>
         <input type="text" name="" id="firstname"><br>
         <label for="middlename">Middle name</label><br>
@@ -25,4 +25,9 @@
 <button>Submit</button>
     </form>
 </body>
+<script>
+    function foo(){
+        alert("thank you");
+    }
+</script>
 </html>
